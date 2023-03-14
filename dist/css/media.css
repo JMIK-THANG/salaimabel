@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+  .header-home {
+    height: 30rem; } }
+
+@media (max-width: 500px) {
+  #main-nav {
+    padding: 0; }
+    #main-nav .logo {
+      font-size: 1.5rem;
+      padding-top: 5px; }
+    #main-nav ul li {
+      padding: .5rem; }
+    #main-nav a {
+      padding: 0; }
+  .profile {
+    padding-top: 50px; }
+  .profile h1 {
+    font-size: 2rem;
+    font-weight: normal; }
+  .profile img {
+    display: none; }
+  .name-content {
+    display: none; }
+  .header-home {
+    height: 15rem; } }
