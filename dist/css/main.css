@@ -148,7 +148,7 @@ input[class^="btn-"]:hover {
   box-sizing: border-box; }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.6;
   background: #fff; }
 
@@ -187,7 +187,7 @@ img {
   background: gray;
   opacity: 0.8;
   padding: 0 30px;
-  font-family: 'Dosis', sans-serif; }
+  font-family: "Dosis", sans-serif; }
   #main-nav .logo {
     color: #fff;
     font-size: 1.8rem;
@@ -195,20 +195,20 @@ img {
     align-items: center;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: 'Libre Baskerville', serif; }
+    font-family: "Libre Baskerville", serif; }
   #main-nav ul {
     display: flex; }
   #main-nav ul li {
-    padding: .5rem 1rem; }
+    padding: 0.5rem 1rem; }
   #main-nav a {
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
     color: #fff;
     text-decoration: none;
-    border-bottom: 3px solid transparent; }
+    border-bottom: 2px solid transparent; }
   #main-nav li a:hover,
   #main-nav li a.current {
     transition: 0.3s ease-in-out;
-    border-color: #E7D1B5; }
+    border-color: #f4f4f4; }
 
 .profile {
   display: flex;
@@ -221,7 +221,7 @@ img {
 
 .profile h2 {
   font-size: 2rem;
-  font-family: 'Libre Baskerville', serif; }
+  font-family: "Libre Baskerville", serif; }
 
 .name-content .inside {
   display: grid;
@@ -231,7 +231,7 @@ img {
   margin-top: 70px; }
   .name-content .inside h1 {
     font-size: 2rem;
-    font-family: 'Libre Baskerville', serif; }
+    font-family: "Libre Baskerville", serif; }
   .name-content .inside h3 {
     font-size: 2rem; }
   .name-content .inside p {
@@ -350,31 +350,36 @@ img {
 #contact-a .contact-form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 1rem;
-  justify-content: center; }
+  grid-gap: 1rem; }
 
 #contact-a .callback-form {
   width: 100%; }
 
-#contact-a .form-control {
+#contact-a .form-control input {
   width: 100%; }
 
+#contact-a .form-control label {
+  display: block;
+  padding: 4px; }
+
 #contact-a .form-control input,
-#contact-a .form-control textarea {
+#contact-a .form-control label {
   padding: 4px;
   height: 40px;
   width: 100%;
-  margin: 10px; }
+  margin: 3px; }
 
 #contact-a .form-control textarea {
+  height: 100px;
   width: 100%;
-  height: 130px; }
+  padding: 4px;
+  margin: 3px; }
 
 #contact-a button[type="submit"] {
-  width: 50%; }
+  width: 20%; }
 
 #contact-a button[type="submit"]:hover {
-  background: #ffa500; }
+  background: #333; }
 
 #contact-b .contact-info {
   display: grid;
@@ -421,7 +426,6 @@ img {
   .header-inner {
     height: 6rem; }
     .header-inner #main-nav {
-      height: 60px;
       display: flex;
       justify-content: space-between;
       text-align: center;
@@ -491,6 +495,10 @@ img {
   #work-a h3 {
     text-transform: lowercase;
     font-size: 2rem; }
+  #contact-a .callback-form input,
+  #contact-a .callback-form textarea {
+    margin: 10px 0;
+    padding: 10px; }
   #contact-b .contact-info div {
     margin-bottom: 1rem;
     padding-bottom: 1rem;

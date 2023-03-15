@@ -22,7 +22,7 @@
             &-inner{
                   height:6rem;
                   #main-nav{
-                        height:60px;
+                        // height:60px;
                         display:flex;
                         justify-content: space-between;
                         text-align:center;
@@ -171,6 +171,15 @@
 
       // Contact a
       #contact{
+            &-a{ 
+                  .callback-form input,
+                  .callback-form textarea{ 
+                        margin:10px 0;
+                        padding:10px; 
+                        
+                        
+                  }
+            }
       
                   &-b {             
                         .contact-info{ 

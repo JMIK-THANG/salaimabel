@@ -29,7 +29,7 @@
    
 
    <!-- Contact : A -->
-   <section id="contact-a" class="text-center bg-medium py-3">
+   <section id="contact-a" class="bg-medium py-3">
              
                   <div class="container">
                         <h2 class="section-title">Contact Me</h2>
@@ -40,27 +40,26 @@
                               <img src="./img/mabel.jpg" alt="">                 
                         </div>
                         <div class="request-form">                           
-                              <form action="" class="callback-form">
+                              <form action="process.php" method="POST" class="callback-form">
                                     <div class="form-control">
-                                    
+                                          <label for="name">Name</label>
                                          <input type="text" name="name" id="name" placeholder="Enter Name">
                                     </div>
                                     <div class="form-control">
-                                        
+                                          <label for="email">Email</label>
                                          <input type="text" name="email" id="email" placeholder="Enter email">
                                     </div>
                                     <div class="form-control">
-                                       
+                                          <label for="phone">Phone</label>
                                          <input type="text" name="phone" id="phone" placeholder="Enter Phone">
 
                                     </div>
                                     <div class="form-control">
-                              
                                          <textarea type="message" name="message" id="message" placeholder="Message"></textarea>
 
 
                                     </div>
-                                    <button type="submit" value="send" class="btn-main">Send</button>
+                                    <button type="submit" value="send" class="btn-main text-center">Send</button>
 
                               </form>
                              

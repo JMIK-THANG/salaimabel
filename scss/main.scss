@@ -7,7 +7,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.6;
   background: #fff;
 }
@@ -38,8 +38,7 @@ img {
     height: 6rem;
     border-bottom: 3px solid $main-color;
     background-color: gray;
-    opacity:0.7;
-
+    opacity: 0.7;
   }
 }
 
@@ -49,13 +48,12 @@ img {
   text-align: center;
   align-items: center;
   justify-content: space-between;
-  height:90px;
-  width:100%;
- background:gray;
- opacity:0.8;
+  height: 90px;
+  width: 100%;
+  background: gray;
+  opacity: 0.8;
   padding: 0 30px;
-  font-family: 'Dosis', sans-serif;
- 
+  font-family: "Dosis", sans-serif;
 
   .logo {
     color: #fff;
@@ -63,8 +61,8 @@ img {
     text-align: center;
     align-items: center;
     text-transform: uppercase;
-    font-weight:700; 
-    font-family:'Libre Baskerville', serif ;
+    font-weight: 700;
+    font-family: "Libre Baskerville", serif;
     // font-family: 'Dancing Script', cursive;
   }
 
@@ -72,20 +70,20 @@ img {
     display: flex;
   }
   ul li {
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
   }
   a {
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
     color: #fff;
     text-decoration: none;
-    border-bottom: 3px solid transparent;
-}
- 
-li a:hover,
-li a.current {
-  transition: 0.3s ease-in-out;
-  border-color: $medium-color;
-}
+    border-bottom: 2px solid transparent;
+  }
+
+  li a:hover,
+  li a.current {
+    transition: 0.3s ease-in-out;
+    border-color: $light-color;
+  }
 }
 
 // Profile
@@ -99,8 +97,8 @@ li a.current {
   height: 300px;
 }
 .profile h2 {
-  font-size:2rem;
-  font-family: 'Libre Baskerville', serif;
+  font-size: 2rem;
+  font-family: "Libre Baskerville", serif;
 }
 
 // name-content
@@ -111,11 +109,11 @@ li a.current {
     grid-template-columns: repeat(3, 1fr);
     text-align: center;
     align-items: center;
-    margin-top:70px;
+    margin-top: 70px;
 
     h1 {
       font-size: 2rem;
-      font-family: 'Libre Baskerville', serif;
+      font-family: "Libre Baskerville", serif;
     }
     h3 {
       font-size: 2rem;
@@ -140,7 +138,7 @@ li a.current {
         width: 300px;
         height: 300px;
       }
-    
+
       .realestate img {
         width: 600px;
         height: 300px;
@@ -156,8 +154,8 @@ li a.current {
 // About : A
 #about {
   &-a {
-    h3{ 
-      color:#333;
+    h3 {
+      color: #333;
       text-align: center;
     }
     .about-info {
@@ -169,20 +167,18 @@ li a.current {
         grid-area: bioimage;
       }
       .bio {
-        color:#333;
+        color: #333;
         grid-area: bio;
         padding: 1rem;
         border-left: 3px solid $dark-color;
-        p{
-          color:#333;
+        p {
+          color: #333;
         }
-       
       }
     }
   }
   &-b {
     .progress {
-      
       overflow: hidden;
       height: 20px;
       background: $medium-color;
@@ -198,36 +194,30 @@ li a.current {
     }
   }
   &-c {
-    h1{
+    h1 {
       height: 5rem;
       font-size: 40px;
-      text-align:center;
-      align-items:center;
+      text-align: center;
+      align-items: center;
     }
-   
   }
 }
 
 // Services
 #services {
-  
   &-a {
     .services-a {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 3rem;
-    
     }
-      
-   
-    .price { 
-      border-radius:50%; 
-      .section-title { 
-        padding-top:20px;
+
+    .price {
+      border-radius: 50%;
+      .section-title {
+        padding-top: 20px;
       }
-     
     }
-   
   }
   &-b {
     .services-b {
@@ -235,10 +225,10 @@ li a.current {
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 3rem;
     }
-    .price { 
-      border-radius:50%; 
-      .section-title { 
-        padding-top:20px;
+    .price {
+      border-radius: 50%;
+      .section-title {
+        padding-top: 20px;
       }
     }
   }
@@ -248,18 +238,17 @@ li a.current {
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 3rem;
     }
-    .price { 
-      border-radius:50%; 
-      .section-title { 
-        padding-top:20px;
+    .price {
+      border-radius: 50%;
+      .section-title {
+        padding-top: 20px;
       }
     }
   }
-&-d { 
-  padding:60px; 
-  font-size:23px ;
-}
- 
+  &-d {
+    padding: 60px;
+    font-size: 23px;
+  }
 }
 // work
 #work {
@@ -269,17 +258,16 @@ li a.current {
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 3rem;
       // box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
-
     }
-    h3{
-      margin-bottom:1.2rem;
+    h3 {
+      margin-bottom: 1.2rem;
     }
 
-    .overflow{ 
+    .overflow {
       overflow: hidden;
     }
-    .overflow img{
-      border-radius:20px; 
+    .overflow img {
+      border-radius: 20px;
     }
 
     img:hover {
@@ -288,10 +276,10 @@ li a.current {
       transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1);
     }
   }
-  &-b{ 
-    .work-b-image{ 
-      width:100%;
-      height:400px;
+  &-b {
+    .work-b-image {
+      width: 100%;
+      height: 400px;
       object-fit: cover;
     }
   }
@@ -300,40 +288,47 @@ li a.current {
 // Contact A
 #contact {
   &-a {
-    .contact-form{
+    .contact-form {
       display: grid;
       grid-template-columns:repeat(2,1fr); 
       grid-gap:1rem;
-      justify-content: center;
-   
 
     }
-    .callback-form{ 
-      width:100%; 
+
+    .callback-form {
+      width: 100%;
     }
-    .form-control{ 
-      width:100%; 
-   
+    .form-control input {
+      width: 100%;
+     
     }
+  .form-control label{ 
+    display:block;
+    padding:4px;
+  }
     .form-control input,
-    .form-control textarea{ 
-     padding:4px;
-     height:40px;
-      width:100%; 
-      margin:10px;
+    .form-control label
+    {
+      padding: 4px;
+      height: 40px;
+      width: 100%;
+      margin: 3px;
     }
-    .form-control textarea { 
-      width:100%; 
-      height:130px;
+
+    .form-control textarea {
+      height:100px;
+      width:100%;
+      padding:4px;
+      margin:3px;
+      
 
     }
-   
 
     button[type="submit"] {
-      width: 50%;
+      width: 20%;
     }
     button[type="submit"]:hover {
-      background: $main-color;
+      background: $dark-color;
     }
   }
 
@@ -343,13 +338,13 @@ li a.current {
       grid-template-columns: repeat(3, 1fr);
       grid-gap: 1rem;
 
-      a{
-      color:#fff;
-      text-decoration: underline;
+      a {
+        color: #fff;
+        text-decoration: underline;
 
-      &:hover{ 
-        color:$main-color; 
-      }
+        &:hover {
+          color: $main-color;
+        }
       }
     }
   }
@@ -385,7 +380,6 @@ li a.current {
         background: $main-color;
       }
     }
-   
   }
 }
 
