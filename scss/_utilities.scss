@@ -7,22 +7,22 @@
 .name {
   margin-bottom: 20px;
 }
-.label{ 
-  font-family: 'Dancing Script', cursive;
-  color:333;
+.label {
+  font-family: "Dancing Script", cursive;
+  color: 333;
 }
-// Photo section title 
+// Photo section title
 .crazy {
-  font-family: 'Dancing Script', cursive;
-  font-size:35px; 
-  color:green;
+  font-family: "Dancing Script", cursive;
+  font-size: 35px;
+  color: green;
 }
 .lead {
   font-size: 1.2rem;
   padding: 10px;
   margin-bottom: 10px;
-  text-align:justify;
-  color:$dark-color;
+  text-align: justify;
+  color: $dark-color;
 }
 .text-center {
   text-align: center;
@@ -34,8 +34,8 @@
   display: block;
   text-transform: uppercase;
   font-weight: 400;
-  color:$dark-color;
-  font-family: 'Dosis', sans-serif;
+  color: $dark-color;
+  font-family: "Dosis", sans-serif;
 }
 .bottom-line {
   background: $dark-color;
@@ -44,7 +44,6 @@
   display: block;
   margin: 0 auto 1rem auto;
 }
-
 
 // button
 
@@ -55,25 +54,25 @@
   border: none;
   cursor: pointer;
   margin-top: 20px;
-  font-size:18px;
+  font-size: 18px;
   border-radius: 5px;
-  border:1px solid #333;
+  border: 1px solid #333;
 }
 .btn {
-  &-main{ 
+  &-main {
     @extend %btn-shared;
-    background:transparent; 
-    color:#333; 
+    background: transparent;
+    color: #333;
   }
   &-medium {
     @extend %btn-shared;
     background: $medium-color;
     color: $dark-color;
   }
-  &-secondary{ 
-    @extend %btn-shared; 
-    background:$secondary-color; 
-    color:$dark-color;
+  &-secondary {
+    @extend %btn-shared;
+    background: $secondary-color;
+    color: $dark-color;
   }
   &-light {
     @extend %btn-shared;
@@ -85,23 +84,22 @@
     background: $dark-color;
     color: $light-color;
   }
-  
 }
 button[class^="btn-"]:hover,
 a[class^="btn-"]:hover,
 input[class^="btn-"]:hover {
   // background:$main-color;
-  background:$dark-color;
+  background: $dark-color;
   color: #fff;
 }
-.btn-round{ 
-  display:inline-block;
-  padding:15px 30px; 
+.btn-round {
+  display: inline-block;
+  padding: 15px 30px;
   // border-radius:50%;
-  background:gray; 
-  color:$dark-color; 
-  border:none; 
-  color:#fff;
+  background: gray;
+  color: $dark-color;
+  border: none;
+  color: #fff;
 }
 
 // Padding
@@ -148,7 +146,7 @@ input[class^="btn-"]:hover {
   }
   &-secondary {
     background: $secondary-color;
-    color:$light-color; 
+    color: $light-color;
   }
   &-light {
     background: $light-color;
@@ -158,18 +156,17 @@ input[class^="btn-"]:hover {
     background: $dark-color;
     color: #fff;
   }
-  &-primary{ 
-    background:#F8ECDE;
-    color:#333;
+  &-primary {
+    background: #f8ecde;
+    color: #333;
   }
-
 }
 
-// Stars 
-.stars { 
-  margin:30px 0; 
+// Stars
+.stars {
+  margin: 30px 0;
 }
-.star { 
-  margin-right:10px; 
-  font-size:20px; 
+.star {
+  margin-right: 10px;
+  font-size: 20px;
 }
