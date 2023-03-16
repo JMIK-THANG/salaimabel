@@ -14,7 +14,7 @@
 .crazy {
   font-family: 'Dancing Script', cursive;
   font-size: 35px;
-  color: gold; }
+  color: green; }
 
 .lead {
   font-size: 1.2rem;
@@ -479,7 +479,8 @@ img {
     grid-template-columns: 1fr; }
   #about-a .about-info {
     display: grid;
-    grid-template-areas: 'bioimage' 'bio'; }
+    grid-template-areas: 'bioimage'
+ 'bio'; }
   #about-c {
     padding: 20px 0;
     font-size: 1rem; }
