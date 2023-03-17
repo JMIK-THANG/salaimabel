@@ -295,25 +295,25 @@ img {
       grid-template-columns:repeat(2,1fr); 
       grid-gap:1rem;
      
-    };
+    }
 
     .form-control input {
       padding: 4px;
       height: 40px;
       width: 100%;
-      margin: 10px;
+      margin: 10px 0;
     }
 
     .form-control textarea {
       height:140px;
       width:100%;
       padding:4px;
-      margin:10px;  
+      margin:10px 0;  
     }
 
     button[type="submit"] {
       width: 30%;
-      margin:10px; 
+      margin:10px 0; 
     }
     button[type="submit"]:hover {
       background: $dark-color;
