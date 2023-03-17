@@ -7,30 +7,16 @@
 .name {
   margin-bottom: 20px;
 }
-<<<<<<< HEAD
 .label {
-  font-family: "Libre Baskerville", serif;
+  font-family:'Libre Baskerville', sans-serif;
   color:#333;
-=======
-.label{ 
-  font-family: "Libre Baskerville", serif;
-  color:333;
->>>>>>> 7a1cf6f2f650c689650cee814663666dcb962e78
 }
 // Photo section title
 .crazy {
-  font-family: "Libre Baskerville", serif;
-<<<<<<< HEAD
-  font-size: 35px;
-  color: green;
-=======
-  font-size:35px; 
-<<<<<<< HEAD
-  color:red;
->>>>>>> 7a1cf6f2f650c689650cee814663666dcb962e78
-=======
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 1.5rem;
   color:green;
->>>>>>> 68a1915765810ac3737431b65aa2ad114db87898
+  text-transform: uppercase;
 }
 .lead {
   font-size: 1.2rem;
@@ -51,6 +37,7 @@
   font-weight: 400;
   color: $dark-color;
   font-family: "Dosis", sans-serif;
+  margin:10px 0;
 }
 .bottom-line {
   background: $dark-color;
@@ -116,6 +103,15 @@ input[class^="btn-"]:hover {
   border: none;
   color: #fff;
 }
+.btn-services {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius:50%;
+  background: transparent;
+  color: $dark-color;
+  border:1px solid #333; 
+
+}
 
 // Padding
 .py {
@@ -175,6 +171,7 @@ input[class^="btn-"]:hover {
     background: #f8ecde;
     color: #333;
   }
+  
 }
 
 // Stars

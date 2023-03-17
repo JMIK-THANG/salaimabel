@@ -8,13 +8,14 @@
   margin-bottom: 20px; }
 
 .label {
-  font-family: "Libre Baskerville", serif;
-  color: 333; }
+  font-family: 'Libre Baskerville', sans-serif;
+  color: #333; }
 
 .crazy {
-  font-family: "Libre Baskerville", serif;
-  font-size: 35px;
-  color: green; }
+  font-family: 'Libre Baskerville', sans-serif;
+  font-size: 1.5rem;
+  color: green;
+  text-transform: uppercase; }
 
 .lead {
   font-size: 1.2rem;
@@ -33,7 +34,8 @@
   text-transform: uppercase;
   font-weight: 400;
   color: #333;
-  font-family: "Dosis", sans-serif; }
+  font-family: "Dosis", sans-serif;
+  margin: 10px 0; }
 
 .bottom-line {
   background: #333;
@@ -86,6 +88,14 @@ input[class^="btn-"]:hover {
   color: #333;
   border: none;
   color: #fff; }
+
+.btn-services {
+  display: inline-block;
+  padding: 15px 30px;
+  border-radius: 50%;
+  background: transparent;
+  color: #333;
+  border: 1px solid #333; }
 
 .py-1 {
   padding: 1rem 0; }
@@ -150,7 +160,8 @@ input[class^="btn-"]:hover {
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.6;
-  background: #fff; }
+  background: #fff;
+  scroll-behavior: smooth; }
 
 a {
   text-decoration: none;
@@ -352,31 +363,21 @@ img {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem; }
 
-#contact-a .callback-form {
-  width: 100%; }
-
 #contact-a .form-control input {
-  width: 100%; }
-
-#contact-a .form-control label {
-  display: block;
-  padding: 4px; }
-
-#contact-a .form-control input,
-#contact-a .form-control label {
   padding: 4px;
   height: 40px;
   width: 100%;
-  margin: 3px; }
+  margin: 10px; }
 
 #contact-a .form-control textarea {
-  height: 100px;
+  height: 140px;
   width: 100%;
   padding: 4px;
-  margin: 3px; }
+  margin: 10px; }
 
 #contact-a button[type="submit"] {
-  width: 20%; }
+  width: 30%;
+  margin: 10px; }
 
 #contact-a button[type="submit"]:hover {
   background: #333; }
@@ -446,8 +447,7 @@ img {
 @media (max-width: 500px) {
   #main-nav {
     flex-direction: column;
-    padding: 0;
-    height: 60px; }
+    padding: 10px 0; }
     #main-nav .logo {
       font-size: 1.5rem;
       padding-top: .4rem; }
@@ -460,15 +460,16 @@ img {
     .profile .special-2 {
       font-size: 1.2rem; }
   .profile img {
-    width: 150px;
-    height: 150px; }
+    width: 180px;
+    height: 180px;
+    object-fit: cover; }
   .name-content {
     display: none; }
   .header-home {
-    height: 17rem;
+    height: 21rem;
     border-bottom: 3px solid #ffa500; }
   .header-inner {
-    height: 5.3rem; }
+    height: 5.6rem; }
   #home-a .photos,
   #services-a .services-a,
   #services-b .services-b,
@@ -479,14 +480,13 @@ img {
     grid-template-columns: 1fr; }
   #about-a .about-info {
     display: grid;
-    grid-template-areas: 'bioimage'
- 'bio'; }
+    grid-template-areas: 'bioimage' 'bio'; }
   #about-c {
     padding: 20px 0;
     font-size: 1rem; }
   #services-a h2 {
-    font-size: 1.5rem;
-    font-weight: normal; }
+    font-size: 1rem;
+    font-weight: bold; }
   #work-a h2 {
     font-size: 1.5rem;
     font-weight: normal;
@@ -521,13 +521,7 @@ img {
         padding: .5rem; }
   .section-title {
     font-size: 20px; }
-  .btn-round {
-    background: transparent;
-    color: #333; }
   .btn-main {
     border-radius: 50%;
-    padding: .3rem 1.2rem; }
-  .crazy {
-    font-family: "Montserrat", sans-serif;
-    font-size: 35px;
-    color: green; } }
+    padding: .5rem 1.5rem;
+    font-size: 1rem; } }

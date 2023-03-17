@@ -5,11 +5,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.6;
   background: #fff;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -292,40 +294,27 @@ img {
       display: grid;
       grid-template-columns:repeat(2,1fr); 
       grid-gap:1rem;
-
-    }
-
-    .callback-form {
-      width: 100%;
-    }
-    .form-control input {
-      width: 100%;
      
     }
-  .form-control label{ 
-    display:block;
-    padding:4px;
-  }
-    .form-control input,
-    .form-control label
-    {
+
+    
+    .form-control input {
       padding: 4px;
       height: 40px;
       width: 100%;
-      margin: 3px;
+      margin: 10px;
     }
 
     .form-control textarea {
-      height:100px;
+      height:140px;
       width:100%;
       padding:4px;
-      margin:3px;
-      
-
+      margin:10px;  
     }
 
     button[type="submit"] {
-      width: 20%;
+      width: 30%;
+      margin:10px; 
     }
     button[type="submit"]:hover {
       background: $dark-color;
@@ -347,6 +336,7 @@ img {
         }
       }
     }
+   
   }
 
   &-c {
