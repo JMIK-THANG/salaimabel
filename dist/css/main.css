@@ -506,7 +506,8 @@ img {
     font-size: 1.5rem;
     font-weight: normal; }
   #work-b h3 {
-    font-size: 13px; }
+    font-size: 13px;
+    font-style: italic; }
   #contact-b .contact-info div {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
