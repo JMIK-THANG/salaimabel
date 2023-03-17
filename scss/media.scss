@@ -49,7 +49,6 @@
     &-a {
       .services-a {
         grid-template-columns: 1fr;
-
       }
     }
     &-b {
@@ -144,47 +143,52 @@
     }
   }
 
-   //   Service a,b,c
+  //   Service a,b,c
 
-   #services{ 
-         &-a{ 
-             
-            .services-a h2 {
-                  font-size: .5rem;
-                  font-weight: bold;
-                  // padding:10px;
-                  margin: 0 ;
-
-                      }
-                   
-                }
-      &-b{ 
-            .services-b h2 {
-                  font-size: .5rem;
-                  font-weight: bold;
-                  // padding:10px;
-                  
-                  margin:0px 0;
-                  .lead { 
-                        padding:5px; 
-                  }
-
-                      }
+  #services {
+    &-a {
+          .services-a{ 
+                padding:0; 
+          }
+      .services-a h2 {
+        font-size: 0.5rem;
+        font-weight: bold;
+        padding: 15px 0;
+        margin: 0;
       }
-      &-c { 
-            .services-c h2 {
-                  font-size: .5rem;
-                  font-weight: bold;
-                  // padding:10px;
-                  margin:0;
-                  .lead { 
-                        padding:5px; 
-                  }
+      .services-a { 
+            p { 
+                  padding:0; 
+                  margin:0; 
             }
-      }   
-}
-   
- 
+      }
+
+    }
+    &-b {
+      .services-b h2 {
+        font-size: 0.5rem;
+        font-weight: bold;
+        padding:15px 0;
+
+        margin: 0px 0;
+        p {
+          padding: 5px;
+        }
+      }
+    }
+    &-c {
+      .services-c h2 {
+        font-size: 0.5rem;
+        font-weight: bold;
+        padding:15px 0;
+        margin: 0;
+        .lead {
+          padding: 5px;
+        }
+      }
+    }
+  }
+
   //   Work a
   #work-a h2 {
     font-size: 1.5rem;
@@ -243,18 +247,5 @@
   .section-title {
     font-size: 20px;
   }
-  .btn-main {
-    border-radius: 50%;
-        padding: 0.1rem .7rem;
-    font-size: 0.5rem;
-  }
-  .btn-services {
-      display: inline-block;
-      // padding: 15px 30px;
-      border-radius:50%;
-      background: transparent;
-      color: $dark-color;
-      border:1px solid #333; 
-    
-    }
+  
 }
