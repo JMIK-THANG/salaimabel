@@ -119,6 +119,14 @@
     grid-template-columns: 1fr;
   }
 
+//   Home-a
+  #home{ 
+        &-a {
+              .section-title{ 
+                    font-size:1.2rem;
+              }
+        }
+  }
   //   About a
   #about {
     &-a {

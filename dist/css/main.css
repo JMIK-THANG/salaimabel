@@ -478,6 +478,8 @@ img {
   #contact-a .contact-form,
   #contact-b .contact-info {
     grid-template-columns: 1fr; }
+  #home-a .section-title {
+    font-size: 1.2rem; }
   #about-a .about-info {
     display: grid;
     grid-template-areas: "bioimage" "bio"; }
