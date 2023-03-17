@@ -147,28 +147,27 @@
 
   #services {
     &-a {
-          .services-a{ 
-                padding:0; 
-          }
+      .services-a {
+        padding: 0;
+      }
       .services-a h2 {
-        font-size: 0.5rem;
+        font-size: 1rem;
         font-weight: bold;
         padding: 15px 0;
         margin: 0;
       }
-      .services-a { 
-            p { 
-                  padding:0; 
-                  margin:0; 
-            }
+      .services-a {
+        p {
+          padding: 0;
+          margin: 0;
+        }
       }
-
     }
     &-b {
       .services-b h2 {
-        font-size: 0.5rem;
+        font-size: 1rem;
         font-weight: bold;
-        padding:15px 0;
+        padding: 15px 0;
 
         margin: 0px 0;
         p {
@@ -178,9 +177,9 @@
     }
     &-c {
       .services-c h2 {
-        font-size: 0.5rem;
+        font-size: 1rem;
         font-weight: bold;
-        padding:15px 0;
+        padding: 15px 0;
         margin: 0;
         .lead {
           padding: 5px;
@@ -247,5 +246,4 @@
   .section-title {
     font-size: 20px;
   }
-  
 }

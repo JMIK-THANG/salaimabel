@@ -481,7 +481,7 @@ img {
   #services-a .services-a {
     padding: 0; }
   #services-a .services-a h2 {
-    font-size: 0.5rem;
+    font-size: 1rem;
     font-weight: bold;
     padding: 15px 0;
     margin: 0; }
@@ -489,14 +489,14 @@ img {
     padding: 0;
     margin: 0; }
   #services-b .services-b h2 {
-    font-size: 0.5rem;
+    font-size: 1rem;
     font-weight: bold;
     padding: 15px 0;
     margin: 0px 0; }
     #services-b .services-b h2 p {
       padding: 5px; }
   #services-c .services-c h2 {
-    font-size: 0.5rem;
+    font-size: 1rem;
     font-weight: bold;
     padding: 15px 0;
     margin: 0; }
