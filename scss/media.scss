@@ -49,6 +49,7 @@
     &-a {
       .services-a {
         grid-template-columns: 1fr;
+
       }
     }
     &-b {
@@ -119,13 +120,13 @@
     grid-template-columns: 1fr;
   }
 
-//   Home-a
-  #home{ 
-        &-a {
-              .section-title{ 
-                    font-size:1.2rem;
-              }
-        }
+  //   Home-a
+  #home {
+    &-a {
+      .section-title {
+        font-size: 1.2rem;
+      }
+    }
   }
   //   About a
   #about {
@@ -143,12 +144,47 @@
     }
   }
 
-  //   Service a
-  #services-a h2 {
-    font-size: 1rem;
-    font-weight: bold;
-  }
+   //   Service a,b,c
 
+   #services{ 
+         &-a{ 
+             
+            .services-a h2 {
+                  font-size: .5rem;
+                  font-weight: bold;
+                  // padding:10px;
+                  margin: 0 ;
+
+                      }
+                   
+                }
+      &-b{ 
+            .services-b h2 {
+                  font-size: .5rem;
+                  font-weight: bold;
+                  // padding:10px;
+                  
+                  margin:0px 0;
+                  .lead { 
+                        padding:5px; 
+                  }
+
+                      }
+      }
+      &-c { 
+            .services-c h2 {
+                  font-size: .5rem;
+                  font-weight: bold;
+                  // padding:10px;
+                  margin:0;
+                  .lead { 
+                        padding:5px; 
+                  }
+            }
+      }   
+}
+   
+ 
   //   Work a
   #work-a h2 {
     font-size: 1.5rem;
@@ -166,7 +202,6 @@
   // Contact a
   #contact {
     &-a {
-     
     }
 
     &-b {
@@ -210,7 +245,16 @@
   }
   .btn-main {
     border-radius: 50%;
-    padding: 0.5rem 1.5rem;
-    font-size: 1rem;
+        padding: 0.1rem .7rem;
+    font-size: 0.5rem;
   }
+  .btn-services {
+      display: inline-block;
+      // padding: 15px 30px;
+      border-radius:50%;
+      background: transparent;
+      color: $dark-color;
+      border:1px solid #333; 
+    
+    }
 }

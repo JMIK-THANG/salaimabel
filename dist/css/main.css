@@ -486,9 +486,22 @@ img {
   #about-c {
     padding: 20px 0;
     font-size: 1rem; }
-  #services-a h2 {
-    font-size: 1rem;
-    font-weight: bold; }
+  #services-a .services-a h2 {
+    font-size: .5rem;
+    font-weight: bold;
+    margin: 0; }
+  #services-b .services-b h2 {
+    font-size: .5rem;
+    font-weight: bold;
+    margin: 0px 0; }
+    #services-b .services-b h2 .lead {
+      padding: 5px; }
+  #services-c .services-c h2 {
+    font-size: .5rem;
+    font-weight: bold;
+    margin: 0; }
+    #services-c .services-c h2 .lead {
+      padding: 5px; }
   #work-a h2 {
     font-size: 1.5rem;
     font-weight: normal;
@@ -521,5 +534,11 @@ img {
     font-size: 20px; }
   .btn-main {
     border-radius: 50%;
-    padding: 0.5rem 1.5rem;
-    font-size: 1rem; } }
+    padding: 0.1rem .7rem;
+    font-size: 0.5rem; }
+  .btn-services {
+    display: inline-block;
+    border-radius: 50%;
+    background: transparent;
+    color: #333;
+    border: 1px solid #333; } }
