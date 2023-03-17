@@ -504,13 +504,9 @@ img {
       padding: 5px; }
   #work-a h2 {
     font-size: 1.5rem;
-    font-weight: normal;
-    text-transform: lowercase; }
-  #work-a .lead {
-    display: none; }
-  #work-a h3 {
-    text-transform: lowercase;
-    font-size: 2rem; }
+    font-weight: normal; }
+  #work-b h3 {
+    font-size: 13px; }
   #contact-b .contact-info div {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
