@@ -5,7 +5,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -215,7 +214,6 @@ img {
     }
 
     .price {
-  
       .section-title {
         padding-top: 10px;
       }
@@ -290,9 +288,8 @@ img {
   &-a {
     .contact-form {
       display: grid;
-      grid-template-columns:repeat(2,1fr); 
-      grid-gap:1rem;
-     
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
     }
 
     .form-control input {
@@ -303,15 +300,15 @@ img {
     }
 
     .form-control textarea {
-      height:140px;
-      width:100%;
-      padding:4px;
-      margin:10px 0;  
+      height: 140px;
+      width: 100%;
+      padding: 4px;
+      margin: 10px 0;
     }
 
     button[type="submit"] {
       width: 40%;
-      margin:10px 0; 
+      margin: 10px 0;
     }
     button[type="submit"]:hover {
       background: $dark-color;
@@ -333,7 +330,6 @@ img {
         }
       }
     }
-   
   }
 
   &-c {
