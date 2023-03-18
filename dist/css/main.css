@@ -89,6 +89,14 @@ input[class^="btn-"]:hover {
   border: none;
   color: #fff; }
 
+.btn-services {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50%;
+  background: #E7D1B5;
+  color: #333;
+  border: 1px solid #333; }
+
 .py-1 {
   padding: 1rem 0; }
 

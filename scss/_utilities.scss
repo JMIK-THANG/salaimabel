@@ -103,15 +103,15 @@ input[class^="btn-"]:hover {
   border: none;
   color: #fff;
 }
-// .btn-services {
-//   display: inline-block;
-//   padding: 15px 30px;
-//   border-radius:50%;
-//   background: transparent;
-//   color: $dark-color;
-//   border:1px solid #333; 
+.btn-services {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius:50%;
+  background: $medium-color;
+  color: $dark-color;
+  border:1px solid #333; 
 
-// }
+}
 
 // Padding
 .py {
