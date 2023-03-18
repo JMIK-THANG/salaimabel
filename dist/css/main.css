@@ -92,7 +92,6 @@ input[class^="btn-"]:hover {
 .btn-services {
   display: inline-block;
   padding: 10px 20px;
-  border-radius: 50%;
   background: #E7D1B5;
   color: #333;
   border: 1px solid #333; }
@@ -305,30 +304,24 @@ img {
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem; }
 
-#services-a .price {
-  border-radius: 50%; }
-  #services-a .price .section-title {
-    padding-top: 20px; }
+#services-a .price .section-title {
+  padding-top: 10px; }
 
 #services-b .services-b {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem; }
 
-#services-b .price {
-  border-radius: 50%; }
-  #services-b .price .section-title {
-    padding-top: 20px; }
+#services-b .price .section-title {
+  padding-top: 10px; }
 
 #services-c .services-c {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 3rem; }
 
-#services-c .price {
-  border-radius: 50%; }
-  #services-c .price .section-title {
-    padding-top: 20px; }
+#services-c .price .section-title {
+  padding-top: 10px; }
 
 #services-d {
   padding: 60px;
@@ -487,11 +480,11 @@ img {
     padding: 20px 0;
     font-size: 1rem; }
   #services-a .services-a {
-    padding: 0; }
+    padding: 10px; }
   #services-a .services-a h2 {
     font-size: 1rem;
     font-weight: bold;
-    padding: 15px 0;
+    padding: 15px;
     margin: 0; }
   #services-a .services-a p {
     padding: 0;
