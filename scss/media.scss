@@ -190,10 +190,21 @@
 
   //   Work a
   #work {
-    &-a h2 {
-      font-size: 1.5rem;
+    &-a {
+      h2{ 
+        font-size: 1.5rem;
       font-weight: normal;
+      }
+      h3{ 
+        font-style:italic;
+        font-size:.8rem;
+      }
+      .gallery{ 
+        grid-gap:0.1; 
+      }
+      
     }
+  
 
     &-b {
       h3 {

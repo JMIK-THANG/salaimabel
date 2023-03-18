@@ -330,7 +330,7 @@ img {
 #work-a .gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 3rem; }
+  grid-gap: 1rem; }
 
 #work-a h3 {
   margin-bottom: 1.2rem; }
@@ -506,6 +506,11 @@ img {
   #work-a h2 {
     font-size: 1.5rem;
     font-weight: normal; }
+  #work-a h3 {
+    font-style: italic;
+    font-size: .8rem; }
+  #work-a .gallery {
+    grid-gap: 0.1; }
   #work-b h3 {
     font-size: 13px;
     font-style: italic; }
