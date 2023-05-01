@@ -6,16 +6,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-html {
-  overflow: none;
-}
 body {
   // font-family: "Montserrat", sans-serif;
   line-height: 1.6;
   background: #fff;
   scroll-behavior: smooth;
   font-family: "Libre Baskerville", serif;
-  overflow: none;
+  overflow-x: hidden;
 }
 
 a {
@@ -86,6 +83,7 @@ img {
 #about {
   &-a {
     height: 200px;
+    width: 100%;
     background: url(../img/img8.jpg);
     background-position: 0 -360;
     background-attachment: fixed;
@@ -93,6 +91,7 @@ img {
     border-bottom: 1px #eee solid;
     padding-top: 50px;
     position: relative;
+    overflow: none;
 
     .dark-overlay {
       position: absolute;
@@ -107,7 +106,7 @@ img {
   &-b {
     .row {
       .about-img {
-        margin-top: -50px;
+        // margin-top: -50px;
       }
     }
   }
