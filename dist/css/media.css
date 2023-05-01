@@ -1,10 +1,17 @@
-@media (max-width: 800px) and (max-width: 500px) {
+@media (max-width: 500px) {
   .carousel-item {
     height: 20rem; }
     .carousel-item h1 {
       font-size: 20px; }
   .carousel-image-2 {
     background-position: 0 0; }
+  #services-a .service-wrap {
+    grid-template-columns: 1fr;
+    margin: 0;
+    margin-bottom: 10px; }
+  #services-a .service-content {
+    flex-direction: column;
+    margin: 0; }
   #contact-b .contact-info {
     grid-template-columns: 1fr; }
   #contact-b .contact-individual {

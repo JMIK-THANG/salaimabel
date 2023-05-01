@@ -3,10 +3,9 @@
 @media (max-width: 800px) {
 
   
-
+}
 //   Mobile
 @media (max-width: 500px) {
-
 
   // Showxcase Carousel
 
@@ -19,9 +18,23 @@
 }
 .carousel-image-2{
   background-position:0 0; 
-
 }
 
+// Service 
+#services{ 
+  &-a{ 
+    .service-wrap{ 
+      grid-template-columns: 1fr;
+      margin:0;
+      margin-bottom:10px;
+    }
+    .service-content{ 
+      flex-direction: column;
+
+    margin:0; 
+    }
+  }
+}
   
   // contact 
 
@@ -54,4 +67,4 @@
   }
 
 }
-}
+
