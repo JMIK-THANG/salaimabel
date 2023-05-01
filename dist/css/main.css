@@ -164,7 +164,7 @@ body {
   background: #fff;
   scroll-behavior: smooth;
   font-family: "Libre Baskerville", serif;
-  overflow: hidden; }
+  overflow: none; }
 
 a {
   text-decoration: none;
