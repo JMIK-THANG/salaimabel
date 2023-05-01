@@ -1,246 +1,45 @@
 // Tablets & Smaller
 
 @media (max-width: 800px) {
-  .header {
-    &-home {
-      height: 30rem;
 
-      .name-content {
-        padding-top: 5px;
-      }
-
-      .profile h1 {
-        display: none;
-      }
-      .logo {
-        display: none;
-      }
-    }
-    &-inner {
-      height: 6rem;
-      #main-nav {
-        // height:60px;
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
-        align-items: center;
-
-        .logo {
-          font-size: 1rem;
-        }
-      }
-    }
-  }
-  #contact {
-    &-a {
-      .contact-form {
-        grid-template-columns: 1fr;
-      }
-    }
-
-    &-c {
-      h1 {
-        font-size: 2rem;
-      }
-    }
-  }
-  //     Services a, b, c
-  #services {
-    &-a {
-      .services-a {
-        grid-template-columns: 1fr;
-      }
-    }
-    &-b {
-      .services-b {
-        grid-template-columns: 1fr;
-      }
-    }
-    &-c {
-      .services-c {
-        grid-template-columns: 1fr;
-      }
-    }
-  }
-}
+  
 
 //   Mobile
 @media (max-width: 500px) {
-  #main-nav {
-    flex-direction: column;
-    padding: 10px 0;
 
-    .logo {
-      font-size: 1.5rem;
-      padding-top: 0.4rem;
-    }
-    ul li {
-      padding: 0.4rem;
-    }
-    a {
-      padding: 0;
-    }
+
+  // Showxcase Carousel
+
+.carousel-item {
+  height: 20rem;
+
+  h1{
+    font-size:20px;
   }
+}
+.carousel-image-2{
+  background-position:0 0; 
 
-  .profile {
-    padding-top: 20px;
+}
 
-    .special-2 {
-      font-size: 1.2rem;
-      // display:none;
-    }
-  }
-  .profile img {
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-  }
-
-  .name-content {
-    display: none;
-  }
-
-  .header {
-    &-home {
-      height: 21rem;
-      border-bottom: 3px solid $main-color;
-    }
-    &-inner {
-      height: 5.6rem;
-    }
-  }
-  #home-a .photos,
-  #services-a .services-a,
-  #services-b .services-b,
-  #services-c .services-c,
-  #work-a .gallery,
-  #contact-a .contact-form,
-  #contact-b .contact-info {
-    grid-template-columns: 1fr;
-  }
-
-  //   Home-a
-  #home {
-    &-a {
-      .section-title {
-        font-size: 1.2rem;
-      }
-    }
-  }
-  //   About a
-  #about {
-    &-a {
-      .about-info {
-        display: grid;
-        grid-template-areas:
-          "bioimage"
-          "bio";
-      }
-    }
-    &-c {
-      padding: 20px 0;
-      font-size: 1rem;
-    }
-  }
-
-  //   Service a,b,c
-
-  #services {
-    &-a {
-      .services-a {
-        padding: 10px;
-      }
-      .services-a h2 {
-        font-size: 1rem;
-        font-weight: bold;
-        padding: 15px;
-        margin: 0;
-      }
-      .services-a {
-        p {
-          padding: 0;
-          margin: 0;
-        }
-      }
-    }
-    &-b {
-      .services-b h2 {
-        font-size: 1rem;
-        font-weight: bold;
-        padding: 15px 0;
-
-        margin: 0px 0;
-        p {
-          padding: 5px;
-        }
-      }
-    }
-    &-c {
-      .services-c h2 {
-        font-size: 1rem;
-        font-weight: bold;
-        padding: 15px 0;
-        margin: 0;
-        .lead {
-          padding: 5px;
-        }
-      }
-    }
-  }
-
-  //   Work a
-  #work {
-    &-a {
-      h2{ 
-        font-size: 1.5rem;
-      font-weight: normal;
-      }
-      h3{ 
-        font-style:italic;
-        font-size:.8rem;
-      }
-      .gallery{ 
-        grid-gap:0.1; 
-      }
-      
-    }
   
+  // contact 
 
-    &-b {
-      h3 {
-        font-size: 13px;
-        font-style: italic;
+  #contact-b{ 
+      .contact-info{ 
+        grid-template-columns: 1fr;
+      }    
+      .contact-individual{ 
+        margin-bottom:10px;
       }
+  }
+  .contact-title{ 
+    h1{ 
+      font-size:30px;
+      padding-top:30px;
+
     }
   }
-
-  // Contact a
-  #contact {
-    &-a {
-    }
-
-    &-b {
-      .contact-info {
-        div {
-          margin-bottom: 1rem;
-          padding-bottom: 1rem;
-          border-bottom: 1px #555 solid;
-          &:last-child {
-            border-bottom: 0;
-            padding: 0;
-          }
-        }
-      }
-    }
-    &-c {
-      h1 {
-        font-size: 1.5rem;
-      }
-      padding: 20px 0;
-    }
-  }
-
-  // contact C
 
   #main-footer {
     height: 7rem;
@@ -254,8 +53,5 @@
     }
   }
 
-  //      utilities
-  .section-title {
-    font-size: 20px;
-  }
+}
 }

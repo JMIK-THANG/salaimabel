@@ -1,25 +1,22 @@
-@media (max-width: 900px) {
-  .header-home {
-    height: 30rem; } }
-
-@media (max-width: 500px) {
-  #main-nav {
-    padding: 0; }
-    #main-nav .logo {
-      font-size: 1.5rem;
-      padding-top: 5px; }
-    #main-nav ul li {
-      padding: .5rem; }
-    #main-nav a {
-      padding: 0; }
-  .profile {
-    padding-top: 50px; }
-  .profile h1 {
-    font-size: 2rem;
-    font-weight: normal; }
-  .profile img {
-    display: none; }
-  .name-content {
-    display: none; }
-  .header-home {
-    height: 15rem; } }
+@media (max-width: 800px) and (max-width: 500px) {
+  .carousel-item {
+    height: 20rem; }
+    .carousel-item h1 {
+      font-size: 20px; }
+  .carousel-image-2 {
+    background-position: 0 0; }
+  #contact-b .contact-info {
+    grid-template-columns: 1fr; }
+  #contact-b .contact-individual {
+    margin-bottom: 10px; }
+  .contact-title h1 {
+    font-size: 30px;
+    padding-top: 30px; }
+  #main-footer {
+    height: 7rem; }
+    #main-footer .footer-content {
+      flex-direction: column;
+      padding: 1rem;
+      height: 7rem; }
+      #main-footer .footer-content .social {
+        padding: 0.5rem; } }
