@@ -229,8 +229,7 @@ img {
   margin-top: -50px; }
 
 #services-a {
-  background: black;
-  z-index: 100; }
+  background: black; }
   #services-a .service-wrap {
     height: 100%;
     width: 100%;
@@ -309,7 +308,7 @@ img {
     background-position: 0 0; }
   #services-a .service-wrap {
     grid-template-columns: 1fr;
-    margin: 0;
+    margin: 0 -50px;
     margin-bottom: 10px; }
   #services-a .service-content {
     flex-direction: column;
