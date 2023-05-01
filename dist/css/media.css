@@ -11,6 +11,9 @@
     margin-bottom: 10px; }
   #services-a .service-content {
     flex-direction: column;
+    background: #fff;
+    width: 400px;
+    height: 200px;
     margin: 0; }
   #contact-b .contact-info {
     grid-template-columns: 1fr; }

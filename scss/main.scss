@@ -65,7 +65,7 @@ img {
     background-attachment: fixed;
     text-align: center;
     color: #fff;
-    overflow: hidden;
+    // overflow: hidden;
 
     .dark-overlay {
       position: absolute;
@@ -115,7 +115,7 @@ img {
 #services {
   &-a {
     background: black;
-    
+
     .service-wrap {
       height: 100%;
       width: 100%;
