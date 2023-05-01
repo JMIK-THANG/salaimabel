@@ -160,7 +160,8 @@ body {
   line-height: 1.6;
   background: #fff;
   scroll-behavior: smooth;
-  font-family: "Libre Baskerville", serif; }
+  font-family: "Libre Baskerville", serif;
+  overflow: none; }
 
 a {
   text-decoration: none;
@@ -197,7 +198,8 @@ img {
   background: url(../img/img19.jpg) no-repeat;
   background-attachment: fixed;
   text-align: center;
-  color: #fff; }
+  color: #fff;
+  overflow: hidden; }
   #home-b .dark-overlay {
     position: absolute;
     top: 0;
@@ -214,7 +216,8 @@ img {
   color: #fff;
   border-bottom: 1px #eee solid;
   padding-top: 50px;
-  position: relative; }
+  position: relative;
+  overflow: hidden; }
   #about-a .dark-overlay {
     position: absolute;
     top: 0;
