@@ -6,13 +6,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+html{ 
+  overflow: none;
+}
 body {
   // font-family: "Montserrat", sans-serif;
   line-height: 1.6;
   background: #fff;
   scroll-behavior: smooth;
   font-family: "Libre Baskerville", serif;
-  overflow:none;
+  overflow: hidden;
 }
 
 a {
@@ -66,7 +69,6 @@ img {
     background-attachment: fixed;
     text-align: center;
     color: #fff;
-    overflow: hidden;
 
     .dark-overlay {
       position: absolute;
@@ -91,7 +93,6 @@ img {
     border-bottom: 1px #eee solid;
     padding-top: 50px;
     position: relative;
-    overflow: hidden;
 
     .dark-overlay {
       position: absolute;
