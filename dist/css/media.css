@@ -5,17 +5,10 @@
       font-size: 20px; }
   .carousel-image-2 {
     background-position: 0 0; }
-  #services-a .service-wrap {
-    grid-template-columns: 1fr;
-    margin: 0 -100px;
-    margin-bottom: 10px; }
-  #services-a .service-content {
-    flex-direction: column;
-    background: #fff;
-    height: 100%;
-    width: 100%; }
   #portrait-a .portrait-service {
-    grid-template-columns: 1fr; }
+    grid-template-columns: 1fr;
+    border: 1px solid #ccc;
+    padding: 20px; }
   #contact-b .contact-info {
     grid-template-columns: 1fr; }
   #contact-b .contact-individual {

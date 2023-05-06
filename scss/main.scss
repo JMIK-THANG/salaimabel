@@ -112,49 +112,6 @@ img {
 }
 
 // Services
-
-#services {
-  &-a {
-    background: black;
-
-    .service-wrap {
-      height: 100%;
-      width: 100%;
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      margin: auto 50px;
-      margin-top: 100px;
-    }
-
-    .service-img {
-      margin:auto;
-      width: 500px;
-      height: 500px;
-      object-fit: cover;
-      gap:2rem;
-      position:relative;
-    }
-    .service-right{ 
-      position:absolute;
-     }
-    .realestate-img{ 
-      width:500px;
-      margin:auto;
-    }
-    .service-content {
-      background: #fff;
-      width: 400px;
-      height:300px;
-      margin:auto -100px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-        }
-  }
-  
-}
 // Portrait
 
 #portrait{ 
@@ -166,6 +123,7 @@ img {
     display:grid; 
     grid-template-columns: repeat(2,1fr);
     grid-gap:4rem;
+    
   }
   .portrait-content{ 
     display:flex;

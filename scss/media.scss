@@ -18,28 +18,13 @@
   }
 
   // Service
-  #services {
-    &-a {
-      .service-wrap {
-        grid-template-columns: 1fr;
-        margin: 0 -100px;
-        margin-bottom: 10px;
-      }
-      .service-content {
-        flex-direction: column;
-        background: #fff;
-        height:100%;
-        width:100%;
-      }
-    }
-  }
-
-  // Portrait
 
   #portrait {
     &-a {
       .portrait-service {
         grid-template-columns: 1fr;
+        border:1px solid #ccc;
+        padding:20px;
       }
     }
   }
