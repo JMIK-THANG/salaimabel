@@ -127,24 +127,55 @@ img {
     }
 
     .service-img {
-      width: 100%;
-      height: 100%;
+      margin:auto;
+      width: 500px;
+      height: 500px;
       object-fit: cover;
+      gap:2rem;
+      position:relative;
+    }
+    .service-right{ 
+      position:absolute;
+     }
+    .realestate-img{ 
+      width:500px;
+      margin:auto;
     }
     .service-content {
       background: #fff;
       width: 400px;
-      height: 350px;
-      margin: auto -50px;
+      height:300px;
+      margin:auto -100px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
-    }
+        }
+  }
+  
+}
+// Portrait
+
+#portrait{ 
+  &-a{ 
+  height:100%; 
+  background:black;
+
+  .portrait-service { 
+    display:grid; 
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:4rem;
+  }
+  .portrait-content{ 
+    display:flex;
+    flex-direction:column; 
+    justify-content: center;
+    align-items: flex-start;
+    
+  }
   }
 }
-
 // Contact
 
 #contact {
