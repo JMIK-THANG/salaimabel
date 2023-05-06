@@ -298,6 +298,8 @@ img {
     grid-template-columns: 1fr;
     border: 1px solid #ccc;
     padding: 20px; }
+  #portrait-a .portrait-content {
+    align-items: center; }
   #contact-b .contact-info {
     grid-template-columns: 1fr; }
   #contact-b .contact-individual {
