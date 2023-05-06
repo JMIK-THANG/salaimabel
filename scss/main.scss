@@ -58,7 +58,13 @@ img {
 // HOme B
 
 #home {
+  &-a{ 
+    background:black;
+    color:#fff;
+  }
   &-b {
+    background:black; 
+    color:#fff;
     position: relative;
     min-height: 200px;
     background: url(../img/img19.jpg) no-repeat;
@@ -76,12 +82,17 @@ img {
       background: rgba(0, 0, 0, 0.4);
     }
   }
+  &-c{ 
+    background:black; 
+    color:#fff;
+  }
 }
 
 // About
 
 #about {
   &-a {
+   
     height: 200px;
     background: url(../img/img22.jpg);
     background-position:0 -360;
@@ -103,13 +114,20 @@ img {
   }
 
   &-b {
+    background:black; 
+    color:#fff;
     .row {
       .about-img {
         margin-top: -50px;
       }
     }
   }
+  &-c{ 
+    background:black; 
+    color:#fff;
+  }
 }
+
 
 // Services
 // Portrait
@@ -132,6 +150,14 @@ img {
     }
   }
 }
+// Gallery
+
+#gallery{
+
+  background:black;
+  color:#fff;
+}
+
 // Contact
 
 #contact {

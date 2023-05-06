@@ -191,7 +191,13 @@ img {
   background: url(../img/img34.jpg) no-repeat center center/cover;
   background-position: 0 -250px; }
 
+#home-a {
+  background: black;
+  color: #fff; }
+
 #home-b {
+  background: black;
+  color: #fff;
   position: relative;
   min-height: 200px;
   background: url(../img/img19.jpg) no-repeat;
@@ -206,6 +212,10 @@ img {
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.4); }
+
+#home-c {
+  background: black;
+  color: #fff; }
 
 #about-a {
   height: 200px;
@@ -225,8 +235,15 @@ img {
     height: 100%;
     background: rgba(0, 0, 0, 0.4); }
 
-#about-b .row .about-img {
-  margin-top: -50px; }
+#about-b {
+  background: black;
+  color: #fff; }
+  #about-b .row .about-img {
+    margin-top: -50px; }
+
+#about-c {
+  background: black;
+  color: #fff; }
 
 #portrait-a {
   height: 100%;
@@ -240,6 +257,10 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start; }
+
+#gallery {
+  background: black;
+  color: #fff; }
 
 #contact-a {
   background: black; }
