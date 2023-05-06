@@ -209,7 +209,8 @@ img {
 
 #about-a {
   height: 200px;
-  background: url(../img/img8.jpg);
+  background: url(../img/img22.jpg);
+  background-position: 0 -360;
   background-attachment: fixed;
   color: #fff;
   border-bottom: 1px #eee solid;

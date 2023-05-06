@@ -83,8 +83,8 @@ img {
 #about {
   &-a {
     height: 200px;
-    background: url(../img/img8.jpg);
-    // background-position: 0 -360;
+    background: url(../img/img22.jpg);
+    background-position:0 -360;
     background-attachment: fixed;
     color: #fff;
     border-bottom: 1px #eee solid;
@@ -114,24 +114,22 @@ img {
 // Services
 // Portrait
 
-#portrait{ 
-  &-a{ 
-  height:100%; 
-  background:black;
+#portrait {
+  &-a {
+    height: 100%;
+    background: black;
 
-  .portrait-service { 
-    display:grid; 
-    grid-template-columns: repeat(2,1fr);
-    grid-gap:4rem;
-    
-  }
-  .portrait-content{ 
-    display:flex;
-    flex-direction:column; 
-    justify-content: center;
-    align-items: flex-start;
-    
-  }
+    .portrait-service {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 4rem;
+    }
+    .portrait-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
   }
 }
 // Contact
