@@ -349,7 +349,7 @@ img {
     color: #fff; }
   #contact-b .contact-info {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 1rem;
     padding: 50px; }
   #contact-b .contact-individual {
