@@ -25,6 +25,7 @@ ul {
 img {
   width: 100%;
 }
+
 /* Showcase */
 
 .showcase { 
@@ -126,13 +127,26 @@ background:url(../img/img18.jpg) no-repeat center center/cover;
     }
   }
 }
-
+// LOGO
+.lg-4{ 
+  height:100px; 
+  width:150px ; 
+}
+.lg-5{ 
+  height:500px; 
+  width:600px; 
+  
+}
 // HOme B
 
 #home {
   &-a{ 
-    background:black;
+    // height:10%; 
+    background:black; 
     color:#fff;
+    overflow-x:none;
+    position:relative; 
+   
 
     .row { 
       display:flex; 
@@ -140,9 +154,18 @@ background:url(../img/img18.jpg) no-repeat center center/cover;
       justify-content: center;
       align-items: center;
       text-align: center;
-      background:url(../img/img19.jpg) no-repeat center center/cover; 
+      // background:url(../img/lg5.jpeg) no-repeat center center/cover; 
       opacity:.8; 
       z-index:10;
+    }
+    .profile { 
+      position:absolute; 
+      top:200px; 
+      left:200px; 
+      height:200px; 
+      width:200px; 
+      object-fit:cover; 
+
     }
   
   }

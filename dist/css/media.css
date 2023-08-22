@@ -26,6 +26,19 @@
       height: 7rem; }
       #main-footer .footer-content .social {
         padding: 0.5rem; }
+  #home-a {
+    overflow-x: none; }
+    #home-a .row {
+      padding: 0; }
+      #home-a .row .lg-5 {
+        height: 200px;
+        width: 300px; }
+      #home-a .row .profile {
+        top: 320px;
+        left: 150px;
+        width: 70px;
+        height: 70px;
+        z-index: 100; }
   .showcase-title {
     top: 0; }
   .showcase-title1 {

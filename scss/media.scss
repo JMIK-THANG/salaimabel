@@ -61,6 +61,29 @@
     }
   }
 
+  //HOme A 
+
+  #home{ 
+    &-a{ 
+      overflow-x:none; 
+
+      .row { 
+        padding:0; 
+      .lg-5{ 
+        height:200px; 
+        width:300px; 
+      }
+      .profile { 
+        top:320px; 
+        left:150px; 
+        width:70px; 
+        height:70px; 
+        z-index:100; 
+      }
+      }
+    }
+  }
+
   .showcase-title { 
     top:0; 
 
