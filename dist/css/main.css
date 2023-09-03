@@ -18,29 +18,29 @@
   text-transform: uppercase; }
 
 .lead {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding: 10px;
   margin-bottom: 10px;
   text-align: justify;
-  color: #333; }
+  color: #fff; }
 
 .text-center {
   text-align: center; }
 
 .section-title {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   display: block;
   text-transform: uppercase;
   font-weight: 400;
-  color: #333;
+  color: #fff;
   font-family: "Dosis", sans-serif;
   margin: 10px 0; }
 
 .bottom-line {
-  background: #333;
+  background: white;
   height: 1px;
-  width: 4rem;
+  width: 10rem;
   display: block;
   margin: 0 auto 1rem auto; }
 
@@ -263,48 +263,64 @@ img {
   height: 500px;
   width: 600px; }
 
-#home-a {
-  background: black;
-  color: #fff;
-  overflow-x: none;
-  position: relative; }
-  #home-a .row {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+#home {
+  top: 40%; }
+  #home-a {
+    height: 100vh;
+    background: black;
+    color: #fff;
+    overflow-x: none;
+    position: relative; }
+    #home-a .row {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      opacity: .8;
+      z-index: 10; }
+    #home-a .profile {
+      position: absolute;
+      top: 200px;
+      left: 300px;
+      height: 400px;
+      width: 350px;
+      object-fit: cover; }
+    #home-a .ig {
+      display: flex;
+      flex-direction: column;
+      color: #fff;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      margin-top: 20px; }
+    #home-a .social .fab {
+      color: white;
+      margin-right: 10px;
+      font-size: 30px;
+      margin-top: 40px; }
+    #home-a .fab:hover {
+      color: tomato; }
+  #home-b {
+    background: black;
+    color: #fff;
+    position: relative;
+    min-height: 200px;
+    background: url(../img/img19.jpg) no-repeat;
+    background-attachment: fixed;
     text-align: center;
-    opacity: .8;
-    z-index: 10; }
-  #home-a .profile {
-    position: absolute;
-    top: 200px;
-    left: 200px;
-    height: 200px;
-    width: 200px;
-    object-fit: cover; }
-
-#home-b {
-  background: black;
-  color: #fff;
-  position: relative;
-  min-height: 200px;
-  background: url(../img/img19.jpg) no-repeat;
-  background-attachment: fixed;
-  text-align: center;
-  color: #fff;
-  overflow: hidden; }
-  #home-b .dark-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4); }
-
-#home-c {
-  background: black;
-  color: #fff; }
+    color: #fff;
+    overflow: hidden; }
+    #home-b .dark-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4); }
+  #home-c {
+    background: black;
+    color: #fff; }
 
 #about-a {
   height: 200px;
@@ -332,7 +348,13 @@ img {
   background: black;
   color: #fff; }
 
+.service-title {
+  font-weight: 300;
+  margin-bottom: 40px;
+  font-family: 'Libre Baskerville', sens-serif; }
+
 #portrait-a {
+  font-family: 'Libre Baskerville', sens-serif;
   height: 100%;
   background: black; }
   #portrait-a .portrait-service {
@@ -343,7 +365,9 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start; }
+    align-items: center;
+    text-align: center;
+    background: #333; }
 
 #gallery {
   background: black;
@@ -403,6 +427,8 @@ img {
       font-size: 20px; }
   .carousel-image-2 {
     background-position: 0 0; }
+  .service-title {
+    font-size: 25px; }
   #portrait-a .portrait-service {
     grid-template-columns: 1fr;
     border: 1px solid #ccc;
@@ -425,18 +451,30 @@ img {
       #main-footer .footer-content .social {
         padding: 0.5rem; }
   #home-a {
-    overflow-x: none; }
-    #home-a .row {
-      padding: 0; }
-      #home-a .row .lg-5 {
-        height: 200px;
-        width: 300px; }
-      #home-a .row .profile {
-        top: 320px;
-        left: 150px;
-        width: 70px;
-        height: 70px;
-        z-index: 100; }
+    overflow-x: none;
+    height: 40rem; }
+    #home-a .section-title {
+      font-size: 25px; }
+    #home-a .lead {
+      font-size: 18px; }
+    #home-a .row .lg-5 {
+      height: 200px;
+      width: 300px;
+      padding-top: 20px; }
+    #home-a .row .profile {
+      top: 500px;
+      left: 135px;
+      width: 100px;
+      height: 100px;
+      z-index: 100; }
+    #home-a .row .fab {
+      top: 300px;
+      margin-right: 5px; }
+  #home-b {
+    display: none; }
+  #home-c .section-title {
+    font-size: 20px;
+    margin-bottom: 20px; }
   .showcase-title {
     top: 0; }
   .showcase-title1 {

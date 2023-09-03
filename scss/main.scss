@@ -140,8 +140,9 @@ background:url(../img/img18.jpg) no-repeat center center/cover;
 // HOme B
 
 #home {
+  top:40%; 
   &-a{ 
-    // height:10%; 
+    height:100vh; 
     background:black; 
     color:#fff;
     overflow-x:none;
@@ -161,12 +162,31 @@ background:url(../img/img18.jpg) no-repeat center center/cover;
     .profile { 
       position:absolute; 
       top:200px; 
-      left:200px; 
-      height:200px; 
-      width:200px; 
+      left:300px; 
+      height:400px; 
+      width:350px; 
       object-fit:cover; 
 
     }
+    .ig { 
+      display:flex; 
+      flex-direction:column ; 
+      color:#fff; 
+      justify-content: center;
+      align-items: center;; 
+      text-align:center; 
+      margin-top:20px;
+
+    }
+   .social .fab{ 
+    color:white;
+    margin-right:10px; 
+    font-size:30px;
+    margin-top:40px;
+   }
+   .fab:hover{ 
+     color:tomato; 
+   }
   
   }
   &-b {
@@ -236,9 +256,14 @@ background:url(../img/img18.jpg) no-repeat center center/cover;
 
 // Services
 // Portrait
-
+.service-title { 
+  font-weight:300; 
+  margin-bottom:40px;
+  font-family: 'Libre Baskerville', sens-serif; 
+}
 #portrait {
   &-a {
+    font-family: 'Libre Baskerville', sens-serif; 
     height: 100%;
     background: black;
 
@@ -251,7 +276,9 @@ background:url(../img/img18.jpg) no-repeat center center/cover;
       display: flex;
       flex-direction: column;
       justify-content: center;
-      align-items: flex-start;
+      align-items: center;
+      text-align: center;
+      background:#333; 
     }
   }
 }

@@ -5,6 +5,8 @@
       font-size: 20px; }
   .carousel-image-2 {
     background-position: 0 0; }
+  .service-title {
+    font-size: 25px; }
   #portrait-a .portrait-service {
     grid-template-columns: 1fr;
     border: 1px solid #ccc;
@@ -27,18 +29,30 @@
       #main-footer .footer-content .social {
         padding: 0.5rem; }
   #home-a {
-    overflow-x: none; }
-    #home-a .row {
-      padding: 0; }
-      #home-a .row .lg-5 {
-        height: 200px;
-        width: 300px; }
-      #home-a .row .profile {
-        top: 320px;
-        left: 150px;
-        width: 70px;
-        height: 70px;
-        z-index: 100; }
+    overflow-x: none;
+    height: 40rem; }
+    #home-a .section-title {
+      font-size: 25px; }
+    #home-a .lead {
+      font-size: 18px; }
+    #home-a .row .lg-5 {
+      height: 200px;
+      width: 300px;
+      padding-top: 20px; }
+    #home-a .row .profile {
+      top: 500px;
+      left: 135px;
+      width: 100px;
+      height: 100px;
+      z-index: 100; }
+    #home-a .row .fab {
+      top: 300px;
+      margin-right: 5px; }
+  #home-b {
+    display: none; }
+  #home-c .section-title {
+    font-size: 20px;
+    margin-bottom: 20px; }
   .showcase-title {
     top: 0; }
   .showcase-title1 {

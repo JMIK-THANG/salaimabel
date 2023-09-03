@@ -18,7 +18,9 @@
   }
 
   // Service
-
+  .service-title { 
+    font-size:25px;
+  }
   #portrait {
     &-a {
       .portrait-service {
@@ -66,20 +68,41 @@
   #home{ 
     &-a{ 
       overflow-x:none; 
-
+      height:40rem; 
+      .section-title { 
+        font-size:25px;      
+      }
+      .lead{ 
+        font-size:18px; 
+      }
       .row { 
-        padding:0; 
+    
+      
       .lg-5{ 
         height:200px; 
         width:300px; 
+        padding-top:20px; 
       }
       .profile { 
-        top:320px; 
-        left:150px; 
-        width:70px; 
-        height:70px; 
+        top:500px; 
+        left:135px; 
+        width:100px; 
+        height:100px; 
         z-index:100; 
       }
+      .fab { 
+        top:300px; 
+        margin-right:5px; 
+      }
+      }
+    }
+    &-b{ 
+      display:none; 
+    }
+    &-c { 
+      .section-title { 
+        font-size:20px;
+        margin-bottom:20px; 
       }
     }
   }

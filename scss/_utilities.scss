@@ -19,30 +19,31 @@
   text-transform: uppercase;
 }
 .lead {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding: 10px;
   margin-bottom: 10px;
   text-align: justify;
-  color: $dark-color;
+  color:#fff;
 }
 .text-center {
   text-align: center;
 }
 
+
 .section-title {
-  font-size: 1.5rem;
+  font-size:2rem;
   text-align: center;
   display: block;
   text-transform: uppercase;
   font-weight: 400;
-  color: $dark-color;
+  color: #fff;
   font-family: "Dosis", sans-serif;
   margin:10px 0;
 }
 .bottom-line {
-  background: $dark-color;
+  background:white;
   height: 1px;
-  width: 4rem;
+  width: 10rem;
   display: block;
   margin: 0 auto 1rem auto;
 }
