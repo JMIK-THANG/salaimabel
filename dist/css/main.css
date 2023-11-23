@@ -179,9 +179,6 @@ img {
   width: 100%;
   background: url(../img/img18.jpg) no-repeat center center/cover; }
 
-.lanscape-title {
-  display: none; }
-
 .showcase-title, .showcase-title1 {
   /* height:100%; */
   padding-top: 75px;
@@ -263,8 +260,8 @@ img {
   width: 150px; }
 
 .lg-5 {
-  height: 500px;
-  width: 600px; }
+  height: 300px;
+  width: 300px; }
 
 #home {
   top: 40%; }
