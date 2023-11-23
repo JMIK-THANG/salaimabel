@@ -32,10 +32,7 @@
    padding:20px;
    transition: width 0.6s linear;  
    overflow-x: hidden;
-  //  background:teal;
-   text-shadow: 1px 1px;
-  //  border-radius: 0;
-  //  box-shadow: 2px 2px 5px rgba(0,0,0,0.3)
+ 
   }
   
   #nav ul { 
@@ -63,9 +60,6 @@
   #nav ul a { 
     position:relative;
     margin: 0 13px; 
-    // font-size:18px; 
-    font-weight:400; 
-    // color:#fff; 
   }
 
   .icon{ 
@@ -75,6 +69,7 @@
     position:relative; 
     height:30px; 
     width:30px; 
+    background:#fff; 
    
   }
   .icon:focus{ 
@@ -87,7 +82,7 @@
     width:30px;
     position:absolute; 
     top:10px; 
-    left:10px; 
+    left:2px; 
     transition:transform 0.4s linear; 
     
   }
