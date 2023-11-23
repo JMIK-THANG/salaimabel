@@ -179,6 +179,9 @@ img {
   width: 100%;
   background: url(../img/img18.jpg) no-repeat center center/cover; }
 
+.lanscape-title {
+  display: none; }
+
 .showcase-title, .showcase-title1 {
   /* height:100%; */
   padding-top: 75px;
@@ -473,7 +476,7 @@ img {
   #nav ul a {
     position: relative;
     margin: 0 25px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400; }
   .icon {
     border: 0;
