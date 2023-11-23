@@ -46,7 +46,7 @@
     width:100%; 
   }
   #nav.active{ 
-    width:380px;
+    width:360px;
   }
   #nav ul li{ 
     transform: rotateY(0deg); 
@@ -59,7 +59,8 @@
   }
   #nav ul a { 
     position:relative;
-    margin: 0 13px; 
+    margin: 0 10px; 
+
   }
 
   .icon{ 
@@ -82,8 +83,8 @@
     width:30px;
     position:absolute; 
     top:10px; 
-    left:2px; 
-    transition:transform 0.4s linear; 
+    left:4px; 
+    transition:transform 0.6s linear; 
     
   }
 .icon .line2 { 
