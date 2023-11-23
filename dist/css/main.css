@@ -321,6 +321,8 @@ img {
   #home-c {
     background: black;
     color: #fff; }
+    #home-c .btn {
+      margin-bottom: 20px; }
 
 #about-a {
   height: 200px;
@@ -425,7 +427,7 @@ img {
 
 @media (max-width: 500px) {
   body {
-    overflow: none; }
+    overflow-x: none; }
   .navbar {
     display: none; }
   #about-a {
