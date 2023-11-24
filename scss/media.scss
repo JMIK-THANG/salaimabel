@@ -4,6 +4,7 @@
   .navbar { 
     display:none;
   }
+  
   .showcase { 
     .showcase-img2,
     .showcase-img3,
@@ -136,12 +137,24 @@
           font-size:21px;
         }
       .portrait-service {
-        grid-template-columns: 1fr;
+        grid-template-columns:(2,1fr);
         border: 1px solid #ccc;
         padding: 20px;
+        grid-gap:0;
+      
+        
       }
+     
       .portrait-content { 
         align-items: center;
+       
+      }
+    }
+  }
+  #contact{ 
+    &-a { 
+      .contact-title { 
+        background:url(../img/img1.jpg) center center/cover; 
       }
     }
   }

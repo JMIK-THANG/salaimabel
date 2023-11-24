@@ -85,11 +85,14 @@
   #portrait-a .lead {
     font-size: 21px; }
   #portrait-a .portrait-service {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2, 1fr;
     border: 1px solid #ccc;
-    padding: 20px; }
+    padding: 20px;
+    grid-gap: 0; }
   #portrait-a .portrait-content {
-    align-items: center; } }
+    align-items: center; }
+  #contact-a .contact-title {
+    background: url(../img/img1.jpg) center center/cover; } }
 
 @media (max-width: 500px) {
   body {
