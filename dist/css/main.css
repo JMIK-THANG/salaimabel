@@ -519,7 +519,9 @@ img {
   #portrait-a .portrait-content {
     align-items: center; }
   #contact-a .contact-title {
-    background: url(../img/img1.jpg) center center/cover; } }
+    background: url(../img/img1.jpg) center center/cover; }
+  .gallery .row {
+    grid-template-columns: 2, 1fr; } }
 
 @media (max-width: 500px) {
   body {
