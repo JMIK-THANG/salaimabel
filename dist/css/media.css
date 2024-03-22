@@ -258,4 +258,6 @@
   #gallery .group {
     grid-template-columns: 1fr; }
   #gallery .group > *:last-child {
-    display: none; } }
+    display: none; }
+  #gallery .gallery-title h1 {
+    font-size: 25px; } }
