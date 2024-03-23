@@ -7,7 +7,7 @@
   .showcase {
 
     .showcase-img,
-    .showcase-img2,
+    .showcase-img1,
     .showcase-img3,
     .showcase-img4 {
       display: none;
@@ -325,7 +325,7 @@
       }
 
       .portrait-service {
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
         border: 1px solid #ccc;
         padding: 20px;
       }
