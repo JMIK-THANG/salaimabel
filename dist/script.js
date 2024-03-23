@@ -1,9 +1,12 @@
 const toggle = document.getElementById('toggle');
 const nav = document.getElementById('nav');
+const menu = document.getElementById('menu')
 
 toggle.addEventListener('click', () => {
       console.log(nav)
       nav.classList.toggle('active');
+      
+
 })
 
 // const mainMenu = document.querySelector('.mainMenu');
